@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - "7"
+
+env:
+  COMMIT_AUTHOR_EMAIL: "todo.botstory@gmail.com"
+  ENCRYPTION_LABEL: "c31ead4109d4"
+  PROJECT_NAME: "boilerplate-bot"
+  REPO: "git@github.com:botstory/boilerplate-bot.git"
+
+script:
+  - npm test
+  - bash ./scripts/deploy-static.sh

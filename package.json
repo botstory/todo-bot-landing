@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate-bot-landing",
+  "version": "0.1.0",
+  "description": "landing page of boilerplate bot",
+  "main": "index.js",
+  "scripts": {
+    "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail --verbose --colors",
+    "start": "webpack-dashboard -c cyan -- webpack-dev-server --config config/webpack.dev.js",
+    "test": "echo \"No test specified yet\"",
+    "watch:client": "webpack-dev-server --config config/webpack.dev.js -d --history-api-fallback --hot --inline --progress --colors --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/botstory/boilerplate-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "landing",
+    "boilerplate",
+    "botstory"
+  ],
+  "author": "Eugene Krevenets <ievgenii.krevenets@gmail.com> (http://hyzhak.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botstory/boilerplate-bot/issues"
+  },
+  "homepage": "https://github.com/botstory/boilerplate-bot#readme",
+  "dependencies": {
+    "autoprefixer": "^6.5.4",
+    "babel-polyfill": "^6.20.0",
+    "clean-webpack-plugin": "^0.1.14",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dashboard": "^0.2.0",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  },
+  "devDependencies": {
+    "node-sass": "^4.0.0",
+    "sass-loader": "^4.1.0",
+    "webpack": "^2.1.0-beta.28"
+  }
+}
