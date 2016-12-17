@@ -1,6 +1,9 @@
 # todo bot landing
 [![Build Status](https://travis-ci.org/botstory/todo-bot-landing.svg?branch=develop)](https://travis-ci.org/botstory/todo-bot-landing)
 
+
+[![](https://raw.githubusercontent.com/botstory/todo-bot-landing/feature/stylization-for-todo-bot/src/assets/todobotstory.png)](https://robohash.org/todobotstory)
+
 Sources of landing page of
 [todo bot](https://github.com/botstory/todo-bot).
 
