@@ -6,8 +6,8 @@ node_js:
 env:
   COMMIT_AUTHOR_EMAIL: "todo.botstory@gmail.com"
   ENCRYPTION_LABEL: "c31ead4109d4"
-  PROJECT_NAME: "boilerplate-bot"
-  REPO: "git@github.com:botstory/boilerplate-bot.git"
+  PROJECT_NAME: "todo-bot"
+  REPO: "git@github.com:botstory/todo-bot.git"
 
 script:
   - npm test

@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-bot-landing",
+  "name": "todo-bot-landing",
   "version": "0.1.0",
-  "description": "landing page of boilerplate bot",
+  "description": "landing page of todo bot",
   "main": "index.js",
   "scripts": {
     "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail --verbose --colors",
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/botstory/boilerplate-bot.git"
+    "url": "git+ssh://git@github.com/botstory/todo-bot.git"
   },
   "keywords": [
     "bot",
     "landing",
-    "boilerplate",
+    "todo",
     "botstory"
   ],
   "author": "Eugene Krevenets <ievgenii.krevenets@gmail.com> (http://hyzhak.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/botstory/boilerplate-bot/issues"
+    "url": "https://github.com/botstory/todo-bot/issues"
   },
-  "homepage": "https://github.com/botstory/boilerplate-bot#readme",
+  "homepage": "https://github.com/botstory/todo-bot#readme",
   "dependencies": {
     "autoprefixer": "^6.5.4",
     "babel-polyfill": "^6.20.0",
