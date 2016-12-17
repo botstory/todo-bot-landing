@@ -1,8 +1,8 @@
-# Boilerplate bot landing
+# todo bot landing
 [![Build Status](https://travis-ci.org/botstory/todo-bot-landing.svg?branch=develop)](https://travis-ci.org/botstory/todo-bot-landing)
 
 Sources of landing page of
-[Boilerplate bot](https://github.com/botstory/todo-bot).
+[todo bot](https://github.com/botstory/todo-bot).
 
 ## Stack
 
