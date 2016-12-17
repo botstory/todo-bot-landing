@@ -1,0 +1,7 @@
+.idea/
+dist/
+node_modules/
+
+# Deploy
+deploy_key
+deploy_key.pub
